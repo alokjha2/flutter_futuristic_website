@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_futuristic_website/components/animations/code_snippet/code.dart';
+import 'package:flutter_futuristic_website/components/animations/custom_cursor/custom_cursor_with_tool_tip.dart';
+// import 'package:flutter_futuristic_website/components/animations/custom_cursor/cursor.dart';
+// import 'package:flutter_futuristic_website/components/animations/custom_cursor/custom_cursor.dart';
 import 'package:flutter_futuristic_website/components/animations/full_screen_mode/full_screen.dart';
 import 'package:flutter_futuristic_website/components/animations/globe_animation/globe.dart';
 import 'package:flutter_futuristic_website/components/animations/scroll_progress_animation/scroll.dart';
@@ -31,13 +34,15 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.white,
         body: SafeArea(
           child: 
-          FullScreenIcon()
+          CustomCursorContainer() 
+          // child: 
+          // FullScreenIcon()
           // child: ScrollProgressIndicator(),
           ),
           // CodeSnippetComponent(), 
