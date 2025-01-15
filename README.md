@@ -38,8 +38,12 @@ To get started with this project, follow the instructions below:
 
 ### Components:
 
+
+
+
 1. Globe Animation
 - App demo usage Video:
+https://github.com/user-attachments/assets/b86f7dde-a3c8-47c6-899e-5741861261a8
 
 
 
