@@ -41,7 +41,7 @@ To get started with this project, follow the instructions below:
 1. Globe Animation
 - App demo usage Video:
 
-https://github.com/alokjha2/flutter_futuristic_website/blob/main/screenshots/custom_cursor.mp4
+
 
 <!-- <video src="https://github.com/alokjha2/flutter_futuristic_website/blob/main/screenshots/globe_animation.mp4"></video> -->
 
@@ -50,6 +50,18 @@ https://github.com/alokjha2/flutter_futuristic_website/blob/main/screenshots/cus
 - Responsive layouts
 - Example pages for each component
 
+
+https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
+
+
 ---
 
+
+
+
+https://github.com/user-attachments/assets/5b210fab-9e15-4477-bd18-2c8227849e60
+
+
+
+https://github.com/user-attachments/assets/09b6b95c-7638-41b4-8bd4-3d61296b38c3
 
