@@ -9,22 +9,26 @@ class CustomCursorContainer extends StatefulWidget {
 
 class _CustomCursorContainerState extends State<CustomCursorContainer> {
   Offset position = Offset.zero;
+  bool isHovered = false;
 
   @override
   Widget build(BuildContext context) {
     return MouseRegion(
+      cursor: SystemMouseCursors.none, // Hide the default cursor
       onHover: (event) {
         setState(() {
-          // Offset the position to center the cursor around the mouse
-          position = Offset(
-            event.localPosition.dx - 25, // Half of container width
-            event.localPosition.dy - 25, // Half of container height
-          );
+          position = event.localPosition;
+          isHovered = true;
+        });
+      },
+      onExit: (event) {
+        setState(() {
+          isHovered = false;
         });
       },
       child: Stack(
         children: [
-          // Your main content
+          // Main container
           Container(
             width: 300,
             height: 300,
@@ -36,24 +40,39 @@ class _CustomCursorContainerState extends State<CustomCursorContainer> {
               ),
             ),
           ),
-          // Custom cursor
-          Positioned(
-            left: position.dx + 50,
-            top: position.dy + 30,
+          // Custom animated cursor
+          if (isHovered)
+            AnimatedPositioned(
+              duration: const Duration(milliseconds: 5), // Smooth animation
+              left: position.dx - 25, // Center horizontally
+              top: position.dy - 25,  // Center vertically
+              child: Transform.rotate(
+                angle: -0.5, // Adjust this value to tilt the image (in radians)
+                child: Image.asset(
+                  'assets/images/cursor.png', // Use your image here
+                  width: 50,
+                  height: 50,
+                ),
+              ),
+            ),
+          // Custom "You" container (optional)
+          AnimatedPositioned(
+            duration: const Duration(milliseconds: 5), // Smooth animation
+            left: position.dx + 30, // Center horizontally
+            top: position.dy + 30,  // Center vertically
             child: Container(
-              width: 20,
-              height: 20,
+              width: 30,
+              height: 30,
               decoration: BoxDecoration(
-                color: Colors.orange,
-                borderRadius: BorderRadius.circular(0), // Remove for perfect rectangle
-                border: Border.all(color: Colors.white, width: 2), // Optional border
+                color: Colors.blue,
+                border: Border.all(color: Colors.white, width: 2),
               ),
               child: const Center(
                 child: Text(
                   "You",
                   style: TextStyle(
-                    fontSize: 4,
                     color: Colors.white,
+                    fontSize: 10,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
