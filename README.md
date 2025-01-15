@@ -39,7 +39,7 @@ To get started with this project, follow the instructions below:
 ### Components:
 
 1. Globe Animation
-![Alt Text](screenshots/globe_animation.mp4)
+<video src="https://github.com/alokjha2/flutter_futuristic_website/blob/main/screenshots/globe_animation.mp4"></video>
 
 2. 
 - Hover effects for interactive components
