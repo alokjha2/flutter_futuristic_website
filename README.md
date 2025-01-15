@@ -17,11 +17,11 @@
 4. [Inspiration]()
 
 
-Taking flutter to the next level. Flutter levels till now 
-Level first - when google launched flutter. Packages like splash screen, widgets related came into existence
-Level two - Provider, riverpod, dio related packages which helped developers in state management and making flutter app work with external tools 
-Level three - basic animations packages came into existence
-Level four - we are leading this level by building futuristic animations in flutter. 
+Taking flutter to the next level. Flutter levels till now: 
+- Level first - when google launched flutter. Packages like splash screen, widgets related came into existence
+- Level two - Provider, riverpod, dio related packages which helped developers in state management and making flutter app work with external tools 
+- Level three - basic animations packages came into existence
+- Level four - we are leading this level by building futuristic animations in flutter. 
 
 
 
@@ -44,37 +44,191 @@ To get started with this project, follow the instructions below:
    ```bash
    git clone https://github.com/alokjha2/flutter_futuristic_website
 
+
 ### Components:
 
 
 1. Globe Animation
 - App demo usage Video:
+
 https://github.com/user-attachments/assets/b86f7dde-a3c8-47c6-899e-5741861261a8
+
+- How to Use: 
+
+
+- Code: 
 
 ```bash
    git clone https://github.com/alokjha2/flutter_futuristic_website
 ```
 
+- Inspiration: 
 
 
 
-2. 
-- Hover effects for interactive components
-- Responsive layouts
-- Example pages for each component
-
+2. Scroll Progress Indicator
+- App demo usage Video:
 
 https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
 
-
----
-
+- How to Use: 
 
 
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration: 
+
+
+2. 
+- App demo usage Video:
 
 https://github.com/user-attachments/assets/5b210fab-9e15-4477-bd18-2c8227849e60
 
+- How to Use: 
 
+
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration: 
+
+
+2. 
+- App demo usage Video:
 
 https://github.com/user-attachments/assets/09b6b95c-7638-41b4-8bd4-3d61296b38c3
+
+- How to Use: 
+
+
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration: 
+
+
+<!-- 2. 
+- App demo usage Video:
+
+https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
+
+- How to Use: 
+
+
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration: 
+
+
+2. 
+- App demo usage Video:
+
+https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
+
+- How to Use: 
+
+
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration: 
+
+
+2. 
+- App demo usage Video:
+
+https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
+
+- How to Use: 
+
+
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration: 
+
+
+2. 
+- App demo usage Video:
+
+https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
+
+- How to Use: 
+
+
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration: 
+
+
+2. 
+- App demo usage Video:
+
+https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
+
+- How to Use: 
+
+
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration: 
+
+
+2. 
+- App demo usage Video:
+
+https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
+
+- How to Use: 
+
+
+- Code: 
+
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
+
+- Inspiration:  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
