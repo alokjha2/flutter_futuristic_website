@@ -41,7 +41,7 @@ To get started with this project, follow the instructions below:
 1. Globe Animation
 - App demo usage Video:
 
-https://github.com/alokjha2/flutter_futuristic_website/blob/main/screenshots/globe_animation.mp4
+https://github.com/alokjha2/flutter_futuristic_website/blob/88ef97dbb6f6681d4be8d86e22177540192ed62e/screenshots/globe_animation.mp4
 
 <!-- <video src="https://github.com/alokjha2/flutter_futuristic_website/blob/main/screenshots/globe_animation.mp4"></video> -->
 
