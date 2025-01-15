@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_futuristic_website/components/animations/code_snippet/code.dart';
+import 'package:flutter_futuristic_website/components/animations/full_screen_mode/full_screen.dart';
 import 'package:flutter_futuristic_website/components/animations/globe_animation/globe.dart';
 import 'package:flutter_futuristic_website/components/animations/scroll_progress_animation/scroll.dart';
 // import 'globe_controller.dart';  // Import the globe controller
@@ -33,10 +34,11 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         body: SafeArea(
           child: 
-          ScrollProgressIndicator(),
+          FullScreenIcon()
+          // child: ScrollProgressIndicator(),
           ),
           // CodeSnippetComponent(), 
           // child: _globeController.buildGlobe(), 

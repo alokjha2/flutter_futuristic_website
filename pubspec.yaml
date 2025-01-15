@@ -36,6 +36,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   flutter_earth_globe: ^1.0.5
+  html: 
+  js: 
+  flutter_hooks:
 
 dev_dependencies:
   flutter_test:
