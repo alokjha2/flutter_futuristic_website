@@ -34,21 +34,19 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.white,
         body: SafeArea(
           child: 
-          CustomCursorContainer() 
-          // child: 
+          // CustomCursorContainer() 
           // FullScreenIcon()
-          // child: ScrollProgressIndicator(),
+          ScrollProgressIndicator(),
+          //  _globeController.buildGlobe(), 
           ),
           // CodeSnippetComponent(), 
-          // child: _globeController.buildGlobe(), 
-          // 
-        // ),
+
       ),
     );
   }
