@@ -1,29 +1,37 @@
 # flutter_futuristic_website
 
-A Flutter project that showcases futuristic design elements and animations for web applications.
+## Table of Contents (of Repo)
 
-## Table of Contents
+1. [Flutter history and Levels](#project-overview)
+2. [Story behind this repo](#getting-started)
+3. [Getting Started](#project-structure)
+4. [Prerequisites](#components-overview)
+5. [Steps to Run the Project](#pages-overview)
+6. [Components](#styles-overview)
+7. [Ending Note](#styles-overview)
 
-1. [Project Overview](#project-overview)
-2. [Getting Started](#getting-started)
-3. [Project Structure](#project-structure)
-4. [Components Overview](#components-overview)
-5. [Pages Overview](#pages-overview)
-6. [Styles Overview](#styles-overview)
-7. [Screen Recordings](#screen-recordings)
-8. [Resources](#resources)
+## Table of Contents (of Components)
+1. [Component Demo Video]()
+2. [How to Use]()
+3. [Code Explanation]()
+4. [Inspiration]()
 
-## Project Overview
 
-This project is a Flutter-based web application that demonstrates futuristic UI components such as animations, hover effects, and responsive widgets. It aims to showcase the power of Flutter for building visually appealing and interactive websites.
+Taking flutter to the next level. Flutter levels till now 
+Level first - when google launched flutter. Packages like splash screen, widgets related came into existence
+Level two - Provider, riverpod, dio related packages which helped developers in state management and making flutter app work with external tools 
+Level three - basic animations packages came into existence
+Level four - we are leading this level by building futuristic animations in flutter. 
+
+
 
 ### Story behind this project 
-
 
 
 ## Getting Started
 
 To get started with this project, follow the instructions below:
+
 
 ### Prerequisites:
 - Flutter installed on your system.
@@ -39,15 +47,16 @@ To get started with this project, follow the instructions below:
 ### Components:
 
 
-
-
 1. Globe Animation
 - App demo usage Video:
 https://github.com/user-attachments/assets/b86f7dde-a3c8-47c6-899e-5741861261a8
 
+```bash
+   git clone https://github.com/alokjha2/flutter_futuristic_website
+```
 
 
-<!-- <video src="https://github.com/alokjha2/flutter_futuristic_website/blob/main/screenshots/globe_animation.mp4"></video> -->
+
 
 2. 
 - Hover effects for interactive components
