@@ -1,4 +1,4 @@
-# flutter_futuristic_website
+# Flutter futuristic website components
 
 ## Table of Contents (of Repo)
 
@@ -66,7 +66,7 @@ https://github.com/user-attachments/assets/b86f7dde-a3c8-47c6-899e-5741861261a8
 
 
 
-2. Scroll Progress Indicator
+2. Full Screen Mode
 - App demo usage Video:
 
 https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
@@ -83,7 +83,7 @@ https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
 - Inspiration: 
 
 
-2. 
+3. Scroll Progress Indicator
 - App demo usage Video:
 
 https://github.com/user-attachments/assets/5b210fab-9e15-4477-bd18-2c8227849e60
@@ -100,7 +100,7 @@ https://github.com/user-attachments/assets/5b210fab-9e15-4477-bd18-2c8227849e60
 - Inspiration: 
 
 
-2. 
+4. Custom Cursor with ToolTip
 - App demo usage Video:
 
 https://github.com/user-attachments/assets/09b6b95c-7638-41b4-8bd4-3d61296b38c3
@@ -151,72 +151,6 @@ https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
 - Inspiration: 
 
 
-2. 
-- App demo usage Video:
-
-https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
-
-- How to Use: 
-
-
-- Code: 
-
-```bash
-   git clone https://github.com/alokjha2/flutter_futuristic_website
-```
-
-- Inspiration: 
-
-
-2. 
-- App demo usage Video:
-
-https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
-
-- How to Use: 
-
-
-- Code: 
-
-```bash
-   git clone https://github.com/alokjha2/flutter_futuristic_website
-```
-
-- Inspiration: 
-
-
-2. 
-- App demo usage Video:
-
-https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
-
-- How to Use: 
-
-
-- Code: 
-
-```bash
-   git clone https://github.com/alokjha2/flutter_futuristic_website
-```
-
-- Inspiration: 
-
-
-2. 
-- App demo usage Video:
-
-https://github.com/user-attachments/assets/07ad1123-8a16-4306-818d-00c031dc3c93
-
-- How to Use: 
-
-
-- Code: 
-
-```bash
-   git clone https://github.com/alokjha2/flutter_futuristic_website
-```
-
-- Inspiration:  -->
 
 
 
