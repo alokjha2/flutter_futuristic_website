@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_futuristic_website/components/animations/code_snippet/code.dart';
 import 'package:flutter_futuristic_website/components/animations/globe_animation/globe.dart';
+import 'package:flutter_futuristic_website/components/animations/scroll_progress_animation/scroll.dart';
 // import 'globe_controller.dart';  // Import the globe controller
 
 void main() {
@@ -18,10 +20,9 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
 
-    // Initialize the globe controller
     _globeController = GlobeController();
 
-    // Add points and connections after the globe initializes
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _globeController.addPointsAndConnections();
     });
@@ -32,13 +33,17 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Customized Connections on Globe'),
-        ),
+        backgroundColor: Colors.black,
         body: SafeArea(
-          child: _globeController.buildGlobe(),
-        ),
+          child: 
+          ScrollProgressIndicator(),
+          ),
+          // CodeSnippetComponent(), 
+          // child: _globeController.buildGlobe(), 
+          // 
+        // ),
       ),
     );
   }
 }
+
