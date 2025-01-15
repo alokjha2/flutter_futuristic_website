@@ -39,7 +39,10 @@ To get started with this project, follow the instructions below:
 ### Components:
 
 1. Globe Animation
+- App demo usage Video:
+
 https://github.com/Jaha96/interacting_bear/assets/18748558/47503d50-ed7e-4050-99f8-1fc9bee3d3e0
+
 <!-- <video src="https://github.com/alokjha2/flutter_futuristic_website/blob/main/screenshots/globe_animation.mp4"></video> -->
 
 2. 
