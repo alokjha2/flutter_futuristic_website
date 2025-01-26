@@ -1,6 +1,12 @@
 git init
 git add .
-git commit -m "build: Added globe component"
-git branch -M main
+git commit -m "chore: pulled main branch in components"
+git branch -M components
 git remote add origin https://github.com/alokjha2/flutter_futuristic_website.git
+git push -u origin components
+
+
+git branch -M main
 git push -u origin main
+
+git pull origin main
