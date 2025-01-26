@@ -1,21 +1,21 @@
-# Flutter futuristic website components
+# Flutter Futuristic Website Components
 
-## Table of Contents (of Repo)
+## Table of Contents
 
-1. [Flutter history and Levels](#project-overview)
-2. [Story behind this repo](#getting-started)
-3. [Getting Started](#project-structure)
-4. [Prerequisites](#components-overview)
-5. [Steps to Run the Project](#pages-overview)
-6. [Components](#styles-overview)
-7. [Ending Note](#styles-overview)
+1. [Flutter History and Levels](#flutter-history-and-levels)
+2. [Story Behind This Project](#story-behind-this-project)
+3. [Getting Started](#getting-started)
+4. [Prerequisites](#prerequisites)
+5. [Steps to Run the Project](#steps-to-run-the-project)
+6. [Components](#components)
+7. [Ending Note](#ending-note)
 
 ## Table of Contents (of Components)
 1. [Component Demo Video]()
 2. [How to Use]()
 3. [Inspiration]()
 
-
+### Flutter history and Levels 
 Taking flutter to the next level. Flutter levels till now: 
 - Level first - when google launched flutter. Packages like splash screen, widgets related came into existence
 - Level two - Provider, riverpod, dio related packages which helped developers in state management and making flutter app work with external tools 
@@ -28,6 +28,10 @@ Taking flutter to the next level. Flutter levels till now:
 So I saw few websites and I was stunned to look them. But then I found out none of them was made in flutter. 
 Some was made in framer, some was in react and other but not in flutter. Reason its easy to build in those frameworks. 
 So I thought lets build a library or github repo of all the components that developers can use in their project so this was the begining of flutter_futuristic_website
+
+Checkout this website - https://www.jack-lee.xyz/
+
+First thing that came into my mind was Wow! what a great website. Animation, design, feel. It's a lit. So I thought let's make something that people can use and say same when they see flutter website made using flutter futuristic components. 
 
 
 
@@ -120,6 +124,60 @@ https://www.tempolabs.ai/
 
 
 
+### Ending Note:
+
+# Project related information
+1. If you want to add or suggest new component then follow this procedure - 
+- Open component branch 
+- Go to components folder => animations & then create a folder in it
+- Follow snake_case format
+- Once component is added in local folder. Open readme and create component in component section. Use this format
+
+``` bash
+4. Custom Cursor with ToolTip
+- Component demo usage Video:
+
+https://github.com/user-attachments/assets/09b6b95c-7638-41b4-8bd4-3d61296b38c3
+
+- How to Use: 
+Replace body of main.dart with the code given below 
+
+   ``` bash
+   body: SafeArea(
+      child: CustomCursorContainer()),
+      ```
+
+
+- Inspiration: 
+https://www.tempolabs.ai/
+
+```
+- Once done. Open pull request in component branch. Take reference from other pull requests
+
+2. Commit statements guideline : 
+- Bug Fixes
+Commit Statement: fix: resolve issue with user login
+
+- Feature Added
+Commit Statement: feat: add user profile page
+
+- Refactoring Existing Code
+Commit Statement: refactor: simplify user authentication logic
+
+- Updating Documentation
+Commit Statement: docs: update README with installation instructions
+
+- Performance Improvements
+Commit Statement: perf: optimize image loading for faster rendering
+
+- Chore (Non-Feature Changes)
+Commit Statement: chore: update dependencies to latest versions
+
+
+# Personal Information
+1. Check out - https://pub.dev/packages/peckish_animated_hand_tutorial  
+2. Check out - [peckishhuman.com](https://peckishhuman.com/)
+3. Follow peckishhuman across all social media (especially on X) - https://x.com/peckishhuman
 
 
 
