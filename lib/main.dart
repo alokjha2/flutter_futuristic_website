@@ -40,12 +40,12 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: Colors.white,
         body: SafeArea(
           child: 
-          // CustomCursorContainer() 
-          // FullScreenIcon()
-          ScrollProgressIndicator(),
-          //  _globeController.buildGlobe(), 
+          CustomCursorContainer() 
           ),
+          // FullScreenIcon()
+          // ScrollProgressIndicator(),
           // CodeSnippetComponent(), 
+          //  _globeController.buildGlobe(), 
 
       ),
     );
