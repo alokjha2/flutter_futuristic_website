@@ -1,21 +1,21 @@
-# Flutter futuristic website components
+# Flutter Futuristic Website Components
 
-## Table of Contents (of Repo)
+## Table of Contents
 
-1. [Flutter history and Levels](#project-overview)
-2. [Story behind this repo](#story-behind-this-project)
-3. [Getting Started](#project-structure)
-4. [Prerequisites](#components-overview)
-5. [Steps to Run the Project](#pages-overview)
-6. [Components](#styles-overview)
-7. [Ending Note](#styles-overview)
+1. [Flutter History and Levels](#flutter-history-and-levels)
+2. [Story Behind This Project](#story-behind-this-project)
+3. [Getting Started](#getting-started)
+4. [Prerequisites](#prerequisites)
+5. [Steps to Run the Project](#steps-to-run-the-project)
+6. [Components](#components)
+7. [Ending Note](#ending-note)
 
 ## Table of Contents (of Components)
 1. [Component Demo Video]()
 2. [How to Use]()
 3. [Inspiration]()
 
-
+### Flutter history and Levels 
 Taking flutter to the next level. Flutter levels till now: 
 - Level first - when google launched flutter. Packages like splash screen, widgets related came into existence
 - Level two - Provider, riverpod, dio related packages which helped developers in state management and making flutter app work with external tools 
@@ -153,7 +153,7 @@ https://www.tempolabs.ai/
 ```
 - Once done. Open pull request in component branch. Take reference from other pull requests
 
-2. Commit statements : 
+2. Commit statements guideline : 
 - Bug Fixes
 Commit Statement: fix: resolve issue with user login
 
