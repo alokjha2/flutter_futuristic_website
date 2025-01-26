@@ -99,6 +99,7 @@ Replace body of main.dart with the code given below
 
 - Inspiration: 
 
+![photo_2025-01-26_20-12-34](https://github.com/user-attachments/assets/0e245b2a-bf6b-487b-81ef-0d635d1dc847)
 
 
 4. Custom Cursor with ToolTip
