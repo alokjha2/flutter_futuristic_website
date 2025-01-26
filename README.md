@@ -153,10 +153,29 @@ https://www.tempolabs.ai/
 ```
 - Once done. Open pull request in component branch. Take reference from other pull requests
 
+2. Commit statements : 
+- Bug Fixes
+Commit Statement: fix: resolve issue with user login
+
+- Feature Added
+Commit Statement: feat: add user profile page
+
+- Refactoring Existing Code
+Commit Statement: refactor: simplify user authentication logic
+
+- Updating Documentation
+Commit Statement: docs: update README with installation instructions
+
+- Performance Improvements
+Commit Statement: perf: optimize image loading for faster rendering
+
+- Chore (Non-Feature Changes)
+Commit Statement: chore: update dependencies to latest versions
+
 
 # Personal Information
 1. Check out - https://pub.dev/packages/peckish_animated_hand_tutorial  
-2. Check out - peckishhuman.com 
+2. Check out - [peckishhuman.com](https://peckishhuman.com/)
 3. Follow peckishhuman across all social media (especially on X) - https://x.com/peckishhuman
 
 
