@@ -22,8 +22,6 @@ Taking flutter to the next level. Flutter levels till now:
 - Level three - basic animations packages came into existence
 - Level four - we are leading this level by building futuristic animations in flutter. 
 
-
-
 ### Story behind this project 
 So I saw few websites and I was stunned to look them. But then I found out none of them was made in flutter. 
 Some was made in framer, some was in react and other but not in flutter. Reason its easy to build in those frameworks. 
@@ -158,8 +156,8 @@ https://www.tempolabs.ai/
 - Bug Fixes
 Commit Statement: fix: resolve issue with user login
 
-- Feature Added
-Commit Statement: feat: add user profile page
+- Component Added
+Commit Statement: component: add user profile page
 
 - Refactoring Existing Code
 Commit Statement: refactor: simplify user authentication logic
