@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_futuristic_website/components/animations/animation_depthList/depth_list.dart';
 import 'package:flutter_futuristic_website/components/animations/code_snippet/code.dart';
 import 'package:flutter_futuristic_website/components/animations/custom_cursor/custom_cursor_with_tool_tip.dart';
+import 'package:flutter_futuristic_website/components/animations/falling_widgets/falling.dart';
 import 'package:flutter_futuristic_website/components/animations/full_screen_mode/full_screen.dart';
 import 'package:flutter_futuristic_website/components/animations/interactive_waves/waves.dart';
 import 'package:flutter_futuristic_website/components/animations/mac_keyboard/keyboard.dart';
@@ -37,7 +38,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.white,
@@ -45,9 +46,10 @@ class _MyAppState extends State<MyApp> {
           child: 
           Center(
         child:
-        DepthListDemo()
+        FallingComponentsScreen()
       ),
           ),
+        // DepthListDemo()
         // WavesDemo()
         // AnimationDemo(),
         // CardStackDemo(),
