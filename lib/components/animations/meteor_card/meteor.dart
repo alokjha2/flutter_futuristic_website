@@ -2,6 +2,8 @@ import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
 
+// https://21st.dev/aceternity/meteors/default
+
 class MeteorEffect extends StatefulWidget {
   final int numberOfMeteors;
   

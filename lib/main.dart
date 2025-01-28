@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_futuristic_website/components/animations/animation_depthList/depth_list.dart';
+import 'package:flutter_futuristic_website/components/animations/background_box/box.dart';
 import 'package:flutter_futuristic_website/components/animations/buttons/button_moving_border.dart';
 import 'package:flutter_futuristic_website/components/animations/code_snippet/code.dart';
 import 'package:flutter_futuristic_website/components/animations/custom_cursor/custom_cursor_with_tool_tip.dart';
@@ -50,10 +51,10 @@ class _MyAppState extends State<MyApp> {
           child: 
           Center(
         child:
-        MeteorCard(),
-        // Example usage
+        BackgroundBoxesDemo()
       ),
           ),
+        // MeteorCard(),
         // MovingBorderDemo()
         // TestimonialsDemo()
 // InputWithProtocolSelect(
